@@ -1,0 +1,182 @@
+.my-complaints-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #eef8ff, #f8fbff);
+  padding: 45px 20px;
+}
+
+.my-complaints-container {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.my-complaints-container > h1 {
+  margin: 0;
+  text-align: center;
+  color: #0b5f91;
+  font-size: 38px;
+  font-weight: 800;
+}
+
+.my-complaints-container > p {
+  margin: 10px 0 32px;
+  text-align: center;
+  color: #7193a8;
+  font-size: 16px;
+}
+
+.my-complaint-card {
+  background: #ffffff;
+  border: 1px solid #d8ebf5;
+  border-radius: 18px;
+  padding: 24px 28px;
+  margin-bottom: 18px;
+  box-shadow: 0 10px 25px rgba(8, 127, 189, 0.08);
+  transition: all 0.25s ease;
+}
+
+.my-complaint-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(8, 127, 189, 0.13);
+}
+
+.my-complaint-card h3 {
+  margin: 0 0 18px;
+  color: #087fbd;
+  font-size: 21px;
+  font-weight: 800;
+}
+
+.my-complaint-card p {
+  margin: 9px 0;
+  color: #49697c;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.my-complaint-card strong {
+  color: #174f70;
+}
+
+.empty-complaints {
+  margin-top: 30px;
+  padding: 45px 20px;
+  text-align: center;
+  background: #ffffff;
+  border: 1px dashed #badbea;
+  border-radius: 18px;
+}
+
+.empty-complaints h3 {
+  margin: 0 0 8px;
+  color: #17658c;
+  font-size: 21px;
+}
+
+.empty-complaints p {
+  margin: 0;
+  color: #7899aa;
+}
+
+@media (max-width: 600px) {
+  .my-complaints-page {
+    padding: 30px 15px;
+  }
+
+  .my-complaints-container > h1 {
+    font-size: 30px;
+  }
+
+  .my-complaint-card {
+    padding: 20px;
+  }
+}.back-dashboard-btn {
+  margin-bottom: 22px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  background: #eaf6ff;
+  color: #087fbd;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.back-dashboard-btn:hover {
+  background: #d7effc;
+}
+
+.my-complaints-subtitle {
+  margin: 10px 0 30px;
+  text-align: center;
+  color: #7193a8;
+}
+
+.complaint-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 16px;
+}
+
+.complaint-card-header h3 {
+  margin: 0;
+}
+
+.citizen-status {
+  display: inline-block;
+  padding: 7px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.citizen-status.submitted {
+  background: #fff4d6;
+  color: #9a6a00;
+}
+
+.citizen-status.under-review {
+  background: #e8f3ff;
+  color: #1769aa;
+}
+
+.citizen-status.assigned {
+  background: #f0ebff;
+  color: #6d4bb3;
+}
+
+.citizen-status.resolved {
+  background: #e5f8ec;
+  color: #2f7d4b;
+}
+
+.complaint-photo-area {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid #e1edf3;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.view-photo-btn {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 9px;
+  background: #eaf6ff;
+  color: #087fbd;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.view-photo-btn:hover {
+  background: #d8effb;
+}
+
+.no-photo-text {
+  color: #8aa4b3;
+  font-size: 13px;
+}

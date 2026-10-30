@@ -1,0 +1,223 @@
+.report-page {
+  min-height: 100vh;
+  background: #f4f8fc;
+  padding: 60px 20px;
+}
+
+.report-container {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.report-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.report-header h1 {
+  color: #1778d9;
+  margin-bottom: 10px;
+}
+
+.report-header p {
+  color: #0765bd;
+}
+
+.report-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.report-form label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #1672ce;
+}
+
+.report-form input,
+.report-form select,
+.report-form textarea {
+  width: 100%;
+  padding: 13px;
+  margin-bottom: 20px;
+
+  background-color: #e8f4ff;
+  color: #173b63;
+
+  border: 1px solid #a9d5f5;
+  border-radius: 8px;
+
+  font-size: 15px;
+  outline: none;
+}
+
+.report-form input::placeholder,
+.report-form textarea::placeholder {
+  color: #6d91b2;
+}
+
+.report-form select option {
+  background-color: #e8f4ff;
+  color: #173b63;
+}
+
+.report-form textarea {
+  resize: vertical;
+}
+
+.report-form input:focus,
+.report-form select:focus,
+.report-form textarea:focus {
+  border-color: #0784c1;
+}
+
+.report-form button {
+  margin-top: 10px;
+  padding: 14px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #0784c1;
+  color: white;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.report-form button:hover {
+  background: #056b9c;
+}
+
+.success-message {
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.success-icon {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.success-message h1 {
+  color: #17324d;
+  margin-bottom: 10px;
+}
+
+.success-message p {
+  color: #71869a;
+  margin-bottom: 20px;
+}
+
+.complaint-id {
+  background: #e8f6fc;
+  padding: 18px;
+  border-radius: 10px;
+  margin: 25px 0;
+}
+
+.complaint-id span {
+  display: block;
+  color: #71869a;
+  margin-bottom: 8px;
+}
+
+.complaint-id strong {
+  font-size: 24px;
+  color: #0784c1;
+}
+
+.success-message button {
+  border: none;
+  background: #0784c1;
+  color: white;
+  padding: 13px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.photo-preview {
+  margin-top: 12px;
+  padding: 12px;
+  border: 1px solid #cfe3ee;
+  border-radius: 12px;
+  background: #f7fbff;
+  text-align: center;
+}
+
+.photo-preview img {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.photo-preview p {
+  margin: 0;
+  color: #17658c;
+  font-size: 13px;
+  font-weight: 600;
+}
+/* Complaint Success Message */
+
+.success-message h2,
+.success-card h2,
+.success-container h2 {
+  color: #16324f !important;
+  font-weight: 700;
+}
+
+.success-message p,
+.success-card p,
+.success-container p {
+  color: #087fbd;
+}
+
+.success-message h3,
+.success-card h3,
+.success-container h3 {
+  color: #16324f !important;
+}
+.report-back-btn {
+  display: inline-block;
+  width: auto;
+  padding: 10px 18px;
+  margin-bottom: 22px;
+  background: #e8f4ff;
+  color: #1769aa;
+  border: 1px solid #a9d5f5;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.report-back-btn:hover {
+  background: #d3eaff;
+}
+/* Back to Dashboard Button */
+.report-container .report-back-btn {
+  display: inline-block;
+  width: auto;
+  padding: 11px 20px;
+  margin: 0 0 24px;
+  background: #e8f4ff;
+  color: #1769aa;
+  border: 1px solid #a9d5f5;
+  border-radius: 9px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.report-container .report-back-btn:hover {
+  background: #d3eaff;
+}

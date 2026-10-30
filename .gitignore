@@ -1,0 +1,13 @@
+# Backend database and uploads
+backend/*.db
+backend/uploads/
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+
+# Frontend dependencies
+frontend/node_modules/
+
+# Environment secrets
+.env
+**/.env
